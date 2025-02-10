@@ -1,0 +1,30 @@
+/* Custom Navbar Background Color */
+
+.nav-item {
+   border-radius: 3px !important;
+   /* padding-right: 10px; */
+}
+/* Apply margin to the whole <ul> */
+.nav-pills {
+  margin-left: 0;
+  padding-left: 0; /* Remove default padding from the <ul> */
+  display: flex;   /* Use flexbox for horizontal layout */
+  gap: 20px;       /* This adds space between the <li> items */
+}
+
+.active {
+    background-color: #007bff !important ; /* Blue background for active nav item */
+    color: white !important; /* White color for active nav item */
+}
+  
+  /* Custom Nav-Pills Item Text Color */
+.deactive {
+    color:  #343a40 !important;/* White color for text */
+    background-color: rgb(243, 239, 239) !important;
+  }
+  
+  /* Change Text Color on Hover for Nav Items */
+  .custom-nav-item:hover {
+    color: #f8f9fa; /* Light color on hover */
+  }
+  

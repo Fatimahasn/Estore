@@ -1,0 +1,37 @@
+/* src/TitleBar.css */
+.title {
+    padding-left:10% ;
+    height: 40px; /* Adjust the height as needed */
+    background-color: #e1e3e4;
+    color:  #8f9192;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.title-bar {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100px;
+    width: 100%;
+    align-content: center;
+}
+.search-container{
+    align-content: center;
+    width:60%;
+    padding-left:10%;
+}
+.btn {
+    min-height: 38px;
+    border: 2px solid rgb(215, 212, 212) !important; 
+}
+.btnspacing{
+    margin-left: 0;
+    padding-left: 0; /* Remove default padding from the <ul> */
+    display: flex;   /* Use flexbox for horizontal layout */
+    gap: 10px;       
+}
+.titlebar-spacing{
+    margin-left: 0;
+    padding-left: 0; /* Remove default padding from the <ul> */
+    display: flex;   /* Use flexbox for horizontal layout */
+    gap: 20px;       
+}
