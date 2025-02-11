@@ -39,53 +39,35 @@ const Footer = () => {
                   <h4 className="footer-heading ">Quick Links</h4>
                   <div className="footer-underline "></div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Home
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       About Us
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Contact Us
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Blogs
-                    </a>
                   </div>
                 </div>
                 <div className="col-sm mx-4">
                   <h4 className="footer-heading">Shop Now</h4>
                   <div className="footer-underline"></div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Collections
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Trending Products
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       New Arrivals Products
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Featured Products
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" class="text-white">
                       Cart
-                    </a>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -98,14 +80,10 @@ const Footer = () => {
                     </p>
                   </div>
                   <div className="mb-2">
-                    <a href="" className="text-white">
                       <i className="fa fa-phone"></i> +92 335-XXX-XXXX
-                    </a>
                   </div>
                   <div className="mb-2">
-                    <a href="" className="text-white">
                       <i className="fa fa-envelope"></i> estore@gmail.com
-                    </a>
                   </div>
                 </div>
               </div>
