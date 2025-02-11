@@ -12,7 +12,7 @@ const Carousal = () => {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="./images/deals.jpg"
+                src="/images/deals.jpg"
                 alt="First slide"
                 style={{height:"300px"}}
             />
@@ -24,7 +24,7 @@ const Carousal = () => {
         <Carousel.Item>
             <img
                 className="d-block w-100"
-                src="./images/deal2.jpg"
+                src="/images/deal2.jpg"
                 alt="Second slide"
                 style={{height:"300px"}}
             />
