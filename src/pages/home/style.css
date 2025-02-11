@@ -1,0 +1,89 @@
+
+.app-container{
+    padding-left: 10%;
+    margin-right:10%; 
+  }
+  .title {
+    padding-left:10% ;
+    height: 40px; /* Adjust the height as needed */
+    background-color: #e1e3e4;
+    color:  #8f9192;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  .position-relative {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Scrollable container for categories */
+  .scrollable-container {
+    display: grid;
+    grid-auto-flow: column; /* Force all items to flow in a single row */
+    grid-template-columns: repeat(auto-fit, 200px); /* Set fixed width for each card */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling when buttons are used */
+    padding: 10px 0px;
+    gap: 51px; /* Space between cards */
+    white-space: nowrap; /* Prevent wrapping to the next row */
+  }
+  .product_scrollable_container {
+    display: grid;
+    grid-auto-flow: column; /* Force all items to flow in a single row */
+    grid-template-columns: repeat(auto-fit, 250px); /* Set fixed width for each card */
+    gap: 10px; /* Add spacing between the cards */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+  }
+  /* Hide scrollbar (optional) */
+  .scrollable-container::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar (optional) */
+  .product_scrollable_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  /* Scroll button styles */
+  .scroll-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity:0;
+    transition: opacity 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  .scroll-btn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
+  .position-relative:hover .scroll-btn {
+    opacity: 1; /* Show buttons on hover */
+  }
+  
+  .scroll-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
