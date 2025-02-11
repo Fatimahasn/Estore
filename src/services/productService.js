@@ -2,9 +2,9 @@
 
 export const getfeaturedProducts=()=>{
     return[
-        { id: 0, imgpath: "/images/products/iphone16.jpg", name: "IPhone 16" },
-        { id: 1, imgpath: "/images/products/SamsunggalaxyWatch7.jpg", name: "Galaxy Watch 7" },
-        { id: 2, imgpath: "/images/products/PELMicrowave.jpg", name:  "PEL Microwave & Oven" },
+        { id: 0, imgpath: "./images/products/iphone16.jpg", name: "IPhone 16" },
+        { id: 1, imgpath: "./images/products/SamsunggalaxyWatch7.jpg", name: "Galaxy Watch 7" },
+        { id: 2, imgpath: "./images/products/PELMicrowave.jpg", name:  "PEL Microwave & Oven" },
         // { id: 3, imgpath: "/images/products/wearables.jpg", name: "Wearables" },
         // { id: 4, imgpath: "/images/products/gamingGears.jpg", name: "Gaming Gears" },
         // { id: 5, imgpath: "/images/products/smartHomeDevices.png", name: "Smart Home Devices" },
